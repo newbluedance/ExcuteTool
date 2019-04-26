@@ -1,0 +1,22 @@
+env:
+  test:
+    ip: 192.168.49.80
+    username: webadmin
+    password: webadmin
+    tablename: cs_expert_test
+  dev:
+    ip: 192.168.51.12
+    username: webadmin
+    password: '{W0T!so-<N7vW4OU'
+    tablename: cs_expert_dev
+
+jobType:
+  效率提升: ScanRadioWarningJob
+  精准营销: MarketingWarningJob
+  运营支撑: OperationWarningJob
+  会员分析: MemberMarketingJob
+  服务扫描: ScanBizOpportunityJob
+  消息推送: DingTalkNoticeJob
+  更新ESID: SynchEsIdJob
+
+port: 50143
